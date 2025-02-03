@@ -1,0 +1,103 @@
+/* 共通スタイル */
+.wrapper {
+    width: 430px;
+}
+
+/* ヘッダースタイル */
+
+.header_box {
+    text-align: center;
+    height: 148px;
+    background-color: #8DF498;
+    color: #fff;
+}
+
+.header_title {
+ line-height: 148px;
+}
+
+/* メインスタイル */
+
+.table_table{
+    margin: 89px auto 0px;
+    border-collapse:  collapse;
+}
+
+.table_td {
+    width: 113px;
+    height: 51px;
+    border: solid 1px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.table_td input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.table_td textarea {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.table_td textarea::placeholder {
+    position: relative;
+    top: 18px;
+}
+
+.main_button {
+    font-size: 35px;
+    position: relative;
+    top: 40px;
+    left: 43px;
+}
+
+.dli-plus {
+    display: inline-block;
+    vertical-align: middle;
+    color: #333;
+    line-height: 1;
+    width: 1em;
+    height: 0.1em;
+    background: currentColor;
+    border-radius: 0.1em;
+    position: relative;
+  }
+  
+  .dli-plus::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: inherit;
+    transform: rotate(90deg);
+  }
+
+/* フッター */
+
+.footer_table{
+    margin: 89px auto 0px;
+    border-collapse:  collapse;
+}
+
+.footer_table_th {
+    width: 113px;
+    height: 51px;
+    border: solid 1px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.footer_table_th_sum {
+    width: 226px;
+    height: 51px;
+    border: solid 1px;
+    padding: 5px;
+    font-size: 15px;
+}
